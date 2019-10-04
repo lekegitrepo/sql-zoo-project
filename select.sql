@@ -78,7 +78,7 @@ SELECT winner, yr, subject
  #example query
  SELECT winner, subject, subject IN ('Physics','Chemistry')
   FROM nobel
- WHERE yr=1984
+ WHERE yr = 1984
  ORDER BY subject,winner;
 #query show the 1984 winners and subject ordered by subject and winner name; but list Chemistry and Physics last.
 
